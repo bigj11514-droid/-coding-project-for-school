@@ -7,7 +7,11 @@
     <title>My HTML Showcase</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
-  <body style="background-color: rgba(83, 80, 97, 0.247); max-width: 1080px; margin: 0 auto; box-shadow: 2px 2px rgba(188, 182, 212, 0.247);">
+  <body style="background-color: rgba(83, 80, 97, 0.247); max-width: 1080px; margin: 0 auto; box-shadow: 2px 2px rgba(188, 182, 212, 0.247); @media (max-width: 900px) {
+    max-width: 100vw;
+
+    
+  }">
     <header
       style="
         background-color: rgba(75, 86, 143, 0.486);
@@ -45,6 +49,9 @@
         border-radius: 10px;
         text-transform: uppercase;
         width: auto;
+        @media (max-width: 900px) {
+          overflow-x: auto;
+        }
       "
     >
       <ul
@@ -92,7 +99,7 @@
         />
       </span>
     </section>
-    <section id="services" style="font-size: 18px; color: rgb(0, 0, 0); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px; font-weight: lighter; color: rgb(7, 102, 139);">
+    <section id="services" style="font-size: 18px; color: rgb(0, 0, 0); font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 20px; font-weight: lighter; color: rgb(7, 102, 139);">
       <div id="services">
         <h2
           style="
@@ -176,35 +183,10 @@
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
+        <p>Watch our sample projects on YouTube to see the quality and creativity of our work. From residential homes to commercial buildings, our portfolio showcases the diversity and innovation of our designs.</p>
       </span>
     </div>
-    <table style="width: 300px auto; height: 150px">
-      <h4>
-        <a href="#join">FREE CLASS SCHEDULE</a>
-      </h4>
-      <thead>
-        <th>Class Days</th>
-        <th>Topics</th>
-        <th>Duration</th>
-      </thead>
-      <tbody>
-        <tr>
-          <th>Mondays</th>
-          <th>Floor Plans</th>
-          <th>8:00 am</th>
-        </tr>
-        <tr>
-          <th>Wednesday</th>
-          <th>Ground Floor Slabs</th>
-          <th>1:00 pm</th>
-        </tr>
-        <tr>
-          <th>Fridays</th>
-          <th>Walls Adjustments</th>
-          <th>3:00 pm</th>
-        </tr>
-      </tbody>
-    </table>
+   
     <div>
       <h2
         style="

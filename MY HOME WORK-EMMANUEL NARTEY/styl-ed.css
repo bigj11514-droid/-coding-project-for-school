@@ -12,4 +12,18 @@
     li{
         margin-right: 40px;
     }
+    h2{
+        align-content: center;
+    }
+    .img-cont{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    img{
+        padding-bottom: 10px;
+    }
+    section{
+        padding: 10px;
+    }
 }

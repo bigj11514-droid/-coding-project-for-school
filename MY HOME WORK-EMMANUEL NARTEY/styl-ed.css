@@ -1,0 +1,15 @@
+@media (max-width: 900px){
+    html{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+    ul{
+        overflow-x: auto;
+       
+    }
+    li{
+        margin-right: 40px;
+    }
+}

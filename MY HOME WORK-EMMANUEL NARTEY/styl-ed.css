@@ -26,4 +26,12 @@
     section{
         padding: 10px;
     }
+    .link{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    li{
+        margin: 10px;
+    }
 }
